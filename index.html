@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ! CSS style files  -->
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <!-- ! icons for dashbord -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Resposive Dashbord</title>
+  </head>
+  <body>
+    <!-- ! start menu buttons -->
+    <div class="menu">
+      <!-- frist list item is an profile image with name -->
+      <ul>
+        <li class="profile">
+          <div class="profile-image">
+            <img src="./images/profile_image.jpg" alt="profile image" />
+          </div>
+          <h2>mahmoud</h2>
+        </li>
+        <!-- remaning list items is an link contan of icon and title (p) -->
+        <li>
+          <a class="active" href="#">
+            <i class="fas fa-home"></i>
+            <p>Dashbord</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-user-group"></i>
+            <p>Clients</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-table"></i>
+            <p>Products</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-chart-pie"></i>
+            <p>Charts</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-pen"></i>
+            <p>Posts</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-star"></i>
+            <p>Favorite</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-cog"></i>
+            <p>Settings</p>
+          </a>
+        </li>
+        <!-- last item in my list logout button -->
+        <li class="logout-button">
+          <a href="#">
+            <i class="fas fa-sign-out"></i>
+            <p>Log Out</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- ! end menu buttons -->
+
+    <!-- ! start content  -->
+    <div class="content">
+      <!-- dashbord title and icon  -->
+      <div class="title-info">
+        <p>Dashbord</p>
+        <i class="fas fa-chart-bar"></i>
+      </div>
+
+      <!-- data info class contain 4 data boxs  -->
+      <div class="data-info">
+        <div class="box">
+          <i class="fas fa-user"></i>
+          <div class="data">
+            <p>user</p>
+            <span>100</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-pen"></i>
+          <div class="data">
+            <p>posts</p>
+            <span>120</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-table"></i>
+          <div class="data">
+            <p>products</p>
+            <span>234</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-dollar"></i>
+          <div class="data">
+            <p>revenue</p>
+            <span>$213</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- products title and icon  -->
+      <div class="title-info">
+        <p>Products</p>
+        <i class="fas fa-table"></i>
+      </div>
+
+      <!-- ? products details table  -->
+      <table>
+        <thead>
+          <tr>
+            <th>products</th>
+            <th>price</th>
+            <th>count</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>TV</td>
+            <td><span class="price">$123</span></td>
+            <td><span class="count">32</span></td>
+          </tr>
+          <tr>
+            <td>Mobile</td>
+            <td><span class="price">$434</span></td>
+            <td><span class="count">10</span></td>
+          </tr>
+          <tr>
+            <td>Iphone</td>
+            <td><span class="price">$65</span></td>
+            <td><span class="count">90</span></td>
+          </tr>
+          <tr>
+            <td>Screen</td>
+            <td><span class="price">$224</span></td>
+            <td><span class="count">50</span></td>
+          </tr>
+          <tr>
+            <td>Car</td>
+            <td><span class="price">$3500</span></td>
+            <td><span class="count">4</span></td>
+          </tr>
+          <tr>
+            <td>TV</td>
+            <td><span class="price">$123</span></td>
+            <td><span class="count">32</span></td>
+          </tr>
+          <tr>
+            <td>Mobile</td>
+            <td><span class="price">$434</span></td>
+            <td><span class="count">10</span></td>
+          </tr>
+          <tr></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ! end content  -->
+  </body>
+</html>
